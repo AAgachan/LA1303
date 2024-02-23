@@ -48,27 +48,29 @@ In diesem Projekt strebe ich die Implementierung des Cäsarverschlüsselungsverf
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 02.02.2024      | Agachan          |  Erstellt das  Cäsarverschlüsselungsverfahren          |   90'            |
+| 2.A  | 02.02.2024      | Simon          | Erstellt den Verschiebewert für das Cäsarverschlüsselungsverfahren             | 60'              |
+| 3.A  | 02.02.2024      | Agachan          | Erstellt das Cäsarentschlüsselungsverfahren             | 60'              |
+| 4.A  | 02.02.2024      | Simon          |  Erstellt Unittest            |   90'            |
 
-Total: 
+Total: 300'
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben versucht dass die 3te Unittest funktioniert, jedoch haben wir es nicht erreicht. 
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  | 26.01.24      | Agachan          | 90'              |   80'                |
+| 2.A  | 26.01.24      | Simon          |  60'             |     70'              |
+| 3.A  | 02.02.24      | Agachan          | 60'              |   80'                |
+| 4.A  | 02.02.24      | Simon          |   90'            |     90'              |
+  
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
@@ -76,20 +78,10 @@ Total:
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 23.02.24      | OK         | Agachan       |
+| 2.1  | 23.02.24      | OK         | Agachan       |
+| 3.1  | 23.02.24      | OK         | Agachan       |
+| 4.1  | 23.02.24      | 2 Bestanden 1 Fehler         | Agachan       |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+Alle Testfälle haben funktioniert bis auf Testfall 4.
