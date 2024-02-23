@@ -76,8 +76,7 @@ Total: 300'
 | 1.1  | 23.02.24      | OK         | Agachan       |
 | 2.1  | 23.02.24      | OK         | Agachan       |
 | 3.1  | 23.02.24      | OK         | Agachan       |
-| 4.1  | 23.02.24      | 2 Bestanden 1 Fehler         | Agachan       |
+| 4.1  | 23.02.24      | OK       | Agachan       |
 
 
-Alle Testfälle haben funktioniert bis auf Testfall 4.
-Wir haben alles versucht, damit der 3.Unittest funktioniert, jedoch haben wir es nicht geschafft. 
+Alle Testfälle haben funktionier.
