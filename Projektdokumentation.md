@@ -33,12 +33,12 @@ In diesem Projekt strebe ich die Implementierung des Cäsarverschlüsselungsverf
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Programm gestartet,              |         |                   |
-| 2.1  |              |         |                   |
-| 3.1  |              |         |                   |
-| 4.1  |              |         |                   |
+| 1.1  | Programm gestartet,Do you want to Encrypt [1], Decrypt [2], or Exit [3]?, 1, Enter a number between 1 and 25 to shift the encrypted Text: 2, Please enter the text:              |    a     |  Encrypted text: c                 |
+| 2.1  | Programm gestartet,Do you want to Encrypt [1], Decrypt [2], or Exit [3]?, 1, Enter a number between 1 and 25 to shift the encrypted Text:             |  2       |  Please enter the text: ... Encrypted text:...                 |
+| 3.1  | Programm gestartet,Do you want to Encrypt [1], Decrypt [2], or Exit [3]?             |  2       |    Decrypted text 1:...               |
+| 4.1  | Programm gestartet            |    -     |    3 Bestanden               |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 ### 1.4 Diagramme
 
