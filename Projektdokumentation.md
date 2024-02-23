@@ -79,4 +79,4 @@ Total: 300'
 | 4.1  | 23.02.24      | OK       | Agachan       |
 
 
-Alle Testfälle haben funktionier.
+Alle Testfälle haben funktioniert.
