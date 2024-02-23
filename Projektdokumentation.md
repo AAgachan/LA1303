@@ -1,6 +1,5 @@
 # Projekt-Dokumentation
 
-
 Agachan Atputharasa, Simon Veljkovic
 
 | Datum | Version | Zusammenfassung                                              |
@@ -16,7 +15,7 @@ Agachan Atputharasa, Simon Veljkovic
 
 In diesem Projekt geht es um die Implementierung von Cäsarverschlüsselungsverfahren in C#
 
-In diesem Projekt strebe ich die Implementierung des Cäsarverschlüsselungsverfahrens in C# an. Ziel ist es, eine Funktion zu entwickeln, die eine Zeichenkette mithilfe des Cäsaralgorithmus verschlüsselt und entschlüsselt. Durch dieses Projekt hoffe ich, mein Verständnis für grundlegende Verschlüsselungstechniken zu vertiefen, insbesondere im Kontext von C#-Programmierung.
+In diesem Projekt streben wir die Implementierung des Cäsarverschlüsselungsverfahrens in C# an. Ziel ist es, eine Funktion zu entwickeln, die eine Zeichenkette mithilfe des Cäsarverfahrens verschlüsselt und entschlüsselt. Durch dieses Projekt hoffen wir, unser Verständnis für grundlegende Verschlüsselungstechniken zu vertiefen, insbesondere im Kontext von C#-Programmierung.
 
 ### 1.2 User Stories
 
@@ -32,7 +31,7 @@ In diesem Projekt strebe ich die Implementierung des Cäsarverschlüsselungsverf
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Programm gestartet,Do you want to Encrypt [1], Decrypt [2], or Exit [3]?, 1, Enter a number between 1 and 25 to shift the encrypted Text: 2, Please enter the text:              |    a     |  Encrypted text: c                 |
+| 1.1  | Programm gestartet, Do you want to Encrypt [1], Decrypt [2], or Exit [3]?, 1, Enter a number between 1 and 25 to shift the encrypted Text: 2, Please enter the text:              |    a     |  Encrypted text: c                 |
 | 2.1  | Programm gestartet,Do you want to Encrypt [1], Decrypt [2], or Exit [3]?, 1, Enter a number between 1 and 25 to shift the encrypted Text:             |  2       |  Please enter the text: ... Encrypted text:...                 |
 | 3.1  | Programm gestartet,Do you want to Encrypt [1], Decrypt [2], or Exit [3]?             |  2       |    Decrypted text 1:...               |
 | 4.1  | Programm gestartet            |    -     |    3 Bestanden               |
@@ -41,14 +40,13 @@ In diesem Projekt strebe ich die Implementierung des Cäsarverschlüsselungsverf
 
 ### 1.4 Diagramme
 
-![LA 1303](https://github.com/AAgachan/LA1303/assets/110893260/4cb5145e-f9c6-4aae-96ff-232c14cf8d30)
 
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 02.02.2024      | Agachan          |  Erstellt das  Cäsarverschlüsselungsverfahren          |   90'            |
+| 1.A  | 02.02.2024      | Agachan          |  Erstellt das Cäsarverschlüsselungsverfahren          |   90'            |
 | 2.A  | 02.02.2024      | Simon          | Erstellt den Verschiebewert für das Cäsarverschlüsselungsverfahren             | 60'              |
 | 3.A  | 02.02.2024      | Agachan          | Erstellt das Cäsarentschlüsselungsverfahren             | 60'              |
 | 4.A  | 02.02.2024      | Simon          |  Erstellt Unittest            |   90'            |
@@ -56,10 +54,6 @@ In diesem Projekt strebe ich die Implementierung des Cäsarverschlüsselungsverf
 Total: 300'
 
 
-
-## 3 Entscheiden
-
-Wir haben versucht dass die 3te Unittest funktioniert, jedoch haben wir es nicht erreicht. 
 
 ## 4 Realisieren
 
@@ -85,3 +79,4 @@ Wir haben versucht dass die 3te Unittest funktioniert, jedoch haben wir es nicht
 
 
 Alle Testfälle haben funktioniert bis auf Testfall 4.
+Wir haben alles versucht, damit der 3.Unittest funktioniert, jedoch haben wir es nicht geschafft. 
